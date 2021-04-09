@@ -13,8 +13,11 @@ body {
   margin: 10px -13px !important;
   height: 100%;
   width: auto;
+  transition: transform 450ms;
 }
-
+.card:hover {
+  transform: scale(1.03);
+}
 .card-img-top {
   width: auto;
   height: 20vh;
